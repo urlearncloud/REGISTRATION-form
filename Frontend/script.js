@@ -34,6 +34,6 @@ function submitForm() {
         name: name,
         email: email,
         phone: phone,
-        address: address
+        address: address,
     }));
 }
