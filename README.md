@@ -49,7 +49,7 @@ define resource name :- " register "
 
 enable CORS and create resource
 
-create method
+select resource and create method
 
 method type :- " post "
 
