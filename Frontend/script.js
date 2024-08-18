@@ -37,9 +37,9 @@ function submitForm() {
     xhr.send(JSON.stringify({
         firstname: firstname,
         lastname: lastname,
-        country: country,
         email: email,
         phone: phone,
+        country: country
         
     }));
 }
