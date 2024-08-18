@@ -12,7 +12,7 @@ create table
 
 add email value :- 1 (any value)
 
-create Item :- name , phone , password ( all string )
+create Item :- name , phone , address ( all string )
 ## Step 2: Create IAM Role for Lambda Function
 ```sh
 IAM Role Name: RegistrationFormRole
