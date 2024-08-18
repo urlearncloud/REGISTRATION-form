@@ -1,18 +1,42 @@
-.container {
-    max-width: 400px;
-    margin: auto;
-    padding: 10px;
+.contact-us-section {
+  background-color: #f8f8f8;
+  padding: 1rem;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.contact-us-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
 }
 
-label {
-    margin-top: 10px;
+.contact-us-section form {
+  display: flex;
+  flex-direction: column;
 }
 
-input[type="submit"] {
-    margin-top: 20px;
+.contact-us-section fieldset > div {       /*  change to target added wrapper  */
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-section label {
+  font-size: 1.2rem;
+}
+
+.contact-us-section input {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+
+.messagebox {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-btn {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 80%;
+  font-size: 1.4rem;
 }
